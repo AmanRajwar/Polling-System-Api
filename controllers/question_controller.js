@@ -50,7 +50,7 @@ module.exports.createOption = async (req, res) => {
         const option = await Option.create({ text: req.body.text, });
 
         question.option.push(option._id);
-        option.link_to_vote = `http://localhost:2000/options/${option._id}/add_vote`;
+        option.link_to_vote = `https://polling-system-api-sjb4.onrender.com/options/${option._id}/add_vote`;
         await question.save();
         await option.save();
         return res.status(201).json(option);
