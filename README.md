@@ -41,5 +41,7 @@ Create a question (you can add as many questions as you want)
   VALUE ----> "Any String"
 
 * To create a option using post man you need to send a json res
+  
  KEY ---> text
+ 
  VALUE ----> "Any String"
