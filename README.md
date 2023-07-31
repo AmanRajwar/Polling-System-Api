@@ -1,6 +1,6 @@
 # Polling-System-Api
 
-use postman to use this API
+USE POSTMAN TO USE THIS API
 
 # Features
 
