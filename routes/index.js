@@ -2,11 +2,9 @@ const express = require('express');
 const router = express.Router()
 
 const render = `<h1>Its Working</h1>
-                  <h3> To use post Req You can use Postman</h3>
-                  <h5>END POINTS</h5>
+                  <h3> To use POST REQUEST You can use Postman</h3>
                    <a href="https://polling-system-api-sjb4.onrender.com/questions/64c81798949b1f107e86e643">GET QUESTION WITH ITS OPTIONS</a>
-    <a href="https://polling-system-api-sjb4.onrender.com/questions/64c81798949b1f107e86e643">GET QUESTION WITH ITS OPTIONS</a>
-    <P>REST IS UP TO YOU (●'◡'●) </P>`
+                   <P>REST IS UP TO YOU (●'◡'●) </P>`
 router.get('/', (req,res)=>{
   return res.send(render);
 })
