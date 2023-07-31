@@ -49,7 +49,7 @@ module.exports.createOption = async (req, res) => {
         }
         const option = await Option.create({ text: req.body.text, });
 
-        question.option = option;
+        question.option.push(option._id);
         option.link_to_vote = `http://localhost:2000/options/${option._id}/add_vote`;
         await question.save();
         await option.save();
