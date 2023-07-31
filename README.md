@@ -2,6 +2,8 @@
 
 USE POSTMAN TO USE THIS API
 
+Build Command- npm install
+
 # Features
 
 
